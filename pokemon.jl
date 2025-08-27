@@ -150,5 +150,5 @@ function attack(attacker, defender)
     effectiveness = eff(attacker(), defender())
     eff_value = eff_string(effectiveness)
     println("A Pokemon Type $attacker attacked a Pokemon Type $defender.
-    $eff_value")
+$eff_value.")
 end
